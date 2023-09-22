@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Header Section -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Skylar's Math Facts Challenge</title>
+  </head>
+<!-- Body Section -->
+  <body>
+<!-- Main container -->
+    <div>
+<!-- Heading Section -->
+      <div class="heading">
+        <!-- View Highscores link -->
+        <a onclick="displayHighscoreListFunction();"href="#">View Highscores</a>
+        <!-- Timer countdown -->
+        <span>Time: <span id="countdown">0</span></span>
+      </div>
+      <!-- Home Screen -->
+      <div class="home" id="start_screen">
+        <!-- Quiz title and instructions -->
+        <h1>Code Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <!-- Start Quiz Button -->
+        <button id="start_button">Start Quiz</button>
+      </div>
+      <!-- Question and Answer buttons -->
+      <div class="quiz" id="start_quiz">
+        <h2 class="question" id="question_id">Question 1</h2>
+        <div>
+          <button class="answer_btn" data-correct="correct">
+            1. First Choice
+          </button>
+          <button class="answer_btn" data-correct="correct">
+            2. Second Choice
+          </button>
+          <button class="answer_btn" data-correct="correct">
+            3. Third Choice
+          </button>
+          <button class="answer_btn" data-correct="correct">
+            4. Fourth Choice
+          </button>
+        </div>
+<!-- Answer Results         -->
+      </div>
+      <div class="answer_results" id="startAnswerResults">
+        <!-- Result Message -->
+        <p id="results">Correct!</p>
+      </div>
+      <!-- Final Score Screen -->
+      <div class="final_score" id="finalScore">
+        <!-- Game over message and final score -->
+        <h2 id="gameover-msg">All done!</h2>
+        <p>Your final score is: <span id="score">0</span>.</p>
+        <!-- Initials input and submit button -->
+        <div class="initials">
+          <p>Enter initials: </p>
+          <input type="text" id="initialsInput" />
+          <button id="submit-score">Submit</button>
+        </div>  
+      </div>
+      <!-- Highscore Screen -->
+      <div class="highscore_screen" id="highscores">
+        <!-- Highscore title and list -->
+        <h1>Highscores</h1>
+        <ol id="highScoresList"></ol> 
+        <!-- Go Back and Clear Highscores buttons -->
+        <button id="go_to_start_button">Go Back</button>
+        <button id="clear_highscores_button">Clear Highscores</button>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
