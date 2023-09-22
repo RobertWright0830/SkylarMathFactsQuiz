@@ -2,7 +2,7 @@
 
 ## Description
 
-This website allows a user to take a timed quiz on JavaScript fundamentals that scores high
+This website allows a user to take a timed quiz on addition that scores high
 scores so that the user can gauge their progress compared to their peers.
 
 This was accomplished by:
@@ -19,11 +19,7 @@ This was accomplished by:
 
 The deployed website can be found in the following location:
 
-https://robertwright0830.github.io/JavaScriptCodeQuiz/
+https://robertwright0830.github.io/SkylarMathFactsQuiz/
 
-![Home Page](assets/images/JavaScriptCodeQuiz1.jpg)
-![Quiz Page](assets/images/JavaScriptCodeQuiz2.jpg)
-![Final Score Page](assets/images/JavaScriptCodeQuiz3.jpg)
-![Highscore Page](assets/images/JavaScriptCodeQuiz4.jpg)
 
 
