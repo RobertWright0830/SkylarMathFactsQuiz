@@ -669,8 +669,8 @@ var questionsArray = [
     question: "8 + 1 = ",
     answers: [
       { text: "7", correct: false },
-      { text: "8", correct: true },
-      { text: "9", correct: false },
+      { text: "9", correct: true },
+      { text: "8", correct: false },
       { text: "18", correct: false },
     ],
   },
@@ -851,6 +851,7 @@ questionsArray.forEach((question) => shuffleArray(question.answers));
 
 //Function to display the home screen
 function displayHomescreen() {
+  location.reload();
   startScreenEl.style.display = "block";
   highscoresEl.style.display = "none";
   countdownEl.textContent = "60";
